@@ -2,8 +2,6 @@
   <img src="https://raw.githubusercontent.com/samarthpatel24/workflow-pack/master/assets/github-banner-workflow-pack.png" alt="workflow-pack" width="100%">
 </p>
 
-<h1 align="center">workflow-pack</h1>
-
 <p align="center">
   <em>Ten developer-focused Claude Code dynamic workflows. One install. Multi-agent runs, on tap.</em>
 </p>
