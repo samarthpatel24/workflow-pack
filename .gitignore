@@ -18,7 +18,5 @@ Thumbs.db
 dist/
 *.tgz
 
-# npm-only files — this repo serves the Claude Code marketplace plugin;
-# the CLI ships via npmjs (see .npmignore, which keeps these in the npm package).
-bin/
+# Internal planning docs — not part of either distribution.
 docs/
