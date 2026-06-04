@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "A curated pack of developer-focused Claude Code dynamic workflows — run /workflow-pack to pick which ones to install.",
   "license": "MIT",
+  "author": {
+    "name": "samarthpatel"
+  },
+  "repository": "https://github.com/samarthpatel24/workflow-pack",
+  "homepage": "https://github.com/samarthpatel24/workflow-pack",
   "keywords": [
     "claude-code",
     "dynamic-workflows",

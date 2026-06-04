@@ -2,7 +2,8 @@
   "name": "workflow-pack",
   "description": "Curated, developer-focused Claude Code dynamic workflows.",
   "owner": {
-    "name": "workflow-pack"
+    "name": "samarthpatel24",
+    "url": "https://github.com/samarthpatel24"
   },
   "plugins": [
     {

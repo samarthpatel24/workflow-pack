@@ -53,7 +53,7 @@ npx workflow-pack uninstall bug-sweep  # remove one
 ## Install (Claude Code marketplace plugin)
 
 ```text
-/plugin marketplace add <owner>/workflow-pack
+/plugin marketplace add samarthpatel24/workflow-pack
 /plugin install workflow-pack@workflow-pack
 ```
 

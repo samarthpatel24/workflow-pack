@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "A curated, npx-installable pack of developer-focused Claude Code dynamic workflows.",
   "type": "module",
+  "author": "samarthpatel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samarthpatel24/workflow-pack.git"
+  },
+  "homepage": "https://github.com/samarthpatel24/workflow-pack#readme",
+  "bugs": {
+    "url": "https://github.com/samarthpatel24/workflow-pack/issues"
+  },
   "bin": {
     "workflow-pack": "bin/cli.js"
   },
