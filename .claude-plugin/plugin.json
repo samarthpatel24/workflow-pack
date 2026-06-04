@@ -1,0 +1,15 @@
+{
+  "name": "workflow-pack",
+  "version": "0.1.0",
+  "description": "A curated pack of developer-focused Claude Code dynamic workflows — run /workflow-pack to pick which ones to install.",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "dynamic-workflows",
+    "agents",
+    "developer-tools"
+  ],
+  "commands": [
+    "./commands/"
+  ]
+}

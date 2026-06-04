@@ -1,0 +1,7 @@
+# npm package contents are defined by the "files" field in package.json (bin, workflows, README).
+# This file exists so npm does NOT fall back to .gitignore (which excludes bin/ from the git repo).
+# Marketplace-plugin-only files that don't belong in the npm package:
+.claude-plugin/
+commands/
+docs/
+.gitignore

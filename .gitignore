@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local Claude Code state (don't commit installed workflows or local settings)
+.claude/
+
+# Build / packaging output
+dist/
+*.tgz
+
+# npm-only files — this repo serves the Claude Code marketplace plugin;
+# the CLI ships via npmjs (see .npmignore, which keeps these in the npm package).
+bin/
+docs/

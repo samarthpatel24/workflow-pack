@@ -1,0 +1,20 @@
+{
+  "name": "workflow-pack",
+  "description": "Curated, developer-focused Claude Code dynamic workflows.",
+  "owner": {
+    "name": "workflow-pack"
+  },
+  "plugins": [
+    {
+      "name": "workflow-pack",
+      "source": "./",
+      "description": "Developer-focused dynamic workflows for Claude Code: codebase-survey, bug-sweep, and compare-options. Each fans out into a multi-agent run.",
+      "category": "workflow",
+      "keywords": [
+        "dynamic-workflows",
+        "agents",
+        "developer-tools"
+      ]
+    }
+  ]
+}

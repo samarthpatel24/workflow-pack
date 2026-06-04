@@ -1,0 +1,74 @@
+{
+  "workflows": [
+    {
+      "slug": "codebase-survey",
+      "name": "codebase-survey",
+      "description": "Map a codebase's modules in parallel, then synthesize one architecture overview.",
+      "args": "[path]  (optional, defaults to the current directory)",
+      "example": "/codebase-survey src"
+    },
+    {
+      "slug": "bug-sweep",
+      "name": "bug-sweep",
+      "description": "Sweep code for bugs across 5 lenses in parallel, then adversarially verify each finding.",
+      "args": "[path]  (optional, defaults to the current git diff)",
+      "example": "/bug-sweep src/api"
+    },
+    {
+      "slug": "compare-options",
+      "name": "compare-options",
+      "description": "Compare options head-to-head: one researcher per option, then a scored table.",
+      "args": "[\"A\",\"B\",...]  or  A vs B vs C",
+      "example": "/compare-options Postgres vs MySQL vs SQLite"
+    },
+    {
+      "slug": "dependency-audit",
+      "name": "dependency-audit",
+      "description": "Audit dependencies in parallel for outdated, deprecated, and vulnerable packages.",
+      "args": "[path]  (optional, defaults to the current directory)",
+      "example": "/dependency-audit"
+    },
+    {
+      "slug": "test-gap-finder",
+      "name": "test-gap-finder",
+      "description": "Find under-tested code in parallel and propose concrete missing test cases.",
+      "args": "[path]  (optional, defaults to the current directory)",
+      "example": "/test-gap-finder src"
+    },
+    {
+      "slug": "release-notes",
+      "name": "release-notes",
+      "description": "Turn recent commits/PRs into release notes: group by area, summarize, compile.",
+      "args": "[git range]  (optional, defaults to changes since the last tag)",
+      "example": "/release-notes v1.2.0..HEAD"
+    },
+    {
+      "slug": "doc-audit",
+      "name": "doc-audit",
+      "description": "Audit docs against the code in parallel to find stale, wrong, and missing documentation.",
+      "args": "[path]  (optional, defaults to the current directory)",
+      "example": "/doc-audit"
+    },
+    {
+      "slug": "api-surface-map",
+      "name": "api-surface-map",
+      "description": "Map a project's API surface, document each route group in parallel, compile a reference.",
+      "args": "[path]  (optional, defaults to the current directory)",
+      "example": "/api-surface-map src/routes"
+    },
+    {
+      "slug": "scaffold-feature",
+      "name": "scaffold-feature",
+      "description": "Generate a feature: plan the change, write each file in parallel, then review.",
+      "args": "<feature description>  (required)",
+      "example": "/scaffold-feature add a /health endpoint returning JSON status"
+    },
+    {
+      "slug": "jira-digest",
+      "name": "jira-digest",
+      "description": "Pull Jira issues in scope, analyze each group in parallel, produce a sprint/standup digest.",
+      "args": "[JQL / sprint / board]  (optional, defaults to the active sprint)",
+      "example": "/jira-digest project = ENG AND sprint in openSprints()"
+    }
+  ]
+}

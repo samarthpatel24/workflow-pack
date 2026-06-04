@@ -1,0 +1,25 @@
+{
+  "name": "workflow-pack",
+  "version": "0.1.0",
+  "description": "A curated, npx-installable pack of developer-focused Claude Code dynamic workflows.",
+  "type": "module",
+  "bin": {
+    "workflow-pack": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "workflows",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "dynamic-workflows",
+    "workflows",
+    "agents",
+    "developer-tools"
+  ],
+  "license": "MIT"
+}
