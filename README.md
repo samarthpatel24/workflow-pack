@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/samarthpatel24/workflow-pack/main/assets/github-banner-workflow-pack.png" alt="workflow-pack" width="100%">
+  <img src="https://raw.githubusercontent.com/samarthpatel24/workflow-pack/master/assets/github-banner-workflow-pack.png" alt="workflow-pack" width="100%">
 </p>
 
 <h1 align="center">workflow-pack</h1>
