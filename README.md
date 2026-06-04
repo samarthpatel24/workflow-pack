@@ -1,4 +1,30 @@
-# workflow-pack
+<p align="center">
+  <img src="https://raw.githubusercontent.com/samarthpatel24/workflow-pack/main/assets/github-banner-workflow-pack.png" alt="workflow-pack" width="100%">
+</p>
+
+<h1 align="center">workflow-pack</h1>
+
+<p align="center">
+  <em>Ten developer-focused Claude Code dynamic workflows. One install. Multi-agent runs, on tap.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/npm/v/workflow-pack?style=for-the-badge&color=cb3837&label=npm" alt="npm version">
+  <img src="https://img.shields.io/npm/dm/workflow-pack?style=for-the-badge&color=cb3837&label=downloads" alt="npm downloads">
+  <img src="https://img.shields.io/badge/Claude%20Code-v2.1.154%2B-d97757?style=for-the-badge" alt="Claude Code">
+  <img src="https://img.shields.io/badge/license-MIT-3b82f6?style=for-the-badge" alt="MIT license">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-%E2%89%A518-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node >=18">
+  <img src="https://img.shields.io/badge/JavaScript-ESM-f7df1e?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript ESM">
+  <img src="https://img.shields.io/badge/zero-dependencies-22c55e?style=flat-square" alt="Zero dependencies">
+  <img src="https://img.shields.io/badge/workflows-10-8957e5?style=flat-square" alt="10 workflows">
+  <img src="https://img.shields.io/badge/marketplace-plugin-d97757?style=flat-square" alt="Marketplace plugin">
+  <img src="https://img.shields.io/badge/provenance-signed-2dd4bf?style=flat-square" alt="Signed provenance">
+</p>
+
+---
 
 A curated, `npx`-installable pack of **Claude Code dynamic workflows** — install one, run its
 `/slash-command`, and get a multi-agent run that fans out and synthesizes a result.
